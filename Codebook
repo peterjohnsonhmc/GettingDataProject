@@ -15,3 +15,7 @@ subset of the data.  This subset is then labeled in the same fashion.
 The names then are cleaned and made more descriptive.  All symbols are removed and abbreviations are expanded for clarity.
 
 The subset is then copied into an independent tidy data set tidyData which is then written to a .txt file.
+
+My code should also be commented to provide sufficient clarity to follow.
+
+If you're interested in the actual data, you can look at the README found in the zipfile download that will have all the units you want
