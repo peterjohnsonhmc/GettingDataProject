@@ -1,0 +1,17 @@
+Getting and Cleaning Data
+Final Project
+Peter Johnson
+
+This scipt requires no input, just run it and it will produce the desired cleaned data.  
+
+First it downloads and unzips the file, and then reads all of the individual datasets into R.
+It first merges all of the training data and testing data into seperate objects before then combiining them.
+
+Next it uses the features file to name the columns in the merged dataset.
+
+The script then uses grep to find measurements that only include the mean or std.  It then uses this to make a 
+subset of the data.  This subset is then labeled in the same fashion.  
+
+The names then are cleaned and made more descriptive.  All symbols are removed and abbreviations are expanded for clarity.
+
+The subset is then copied into an independent tidy data set tidyData which is then written to a .txt file.
